@@ -1,84 +1,59 @@
 #UG7-PrakTekkom-C-Algorithm
 
 
-## 1. BIASA DAN SPESIAL (Score 30)
-Buatkan fungsi meminta input bilangan bulat positif. <br/> 
-Program akan menampilkan tulisan “SPESIAL” jika bilangan yang dimasukkan merupakan kelipatan 11. <br/>  
-Jika tidak maka program akan menampilkan tulisan “BIASA”. <br/>
+## 1. HIGH POINT (Score 40)
+Pak Dendy, Pak Dida, dan Kak Livya sedang makan siang bersama. Makanan mereka memiliki porsi yang berbeda-beda (distinct). <br/>
+Makanan Kak Livya memiliki porsi yang paling maksimal dari mereka bertiga. Tentukan berapa berat porsi makanan Kak Livya. <br/>
+
+
+#### Sample Input (lakukan 3 kali scanf)
+```c
+3
+8
+4 
+```
+#### Sample Output 
+```c
+8
+```
+
+## 2. BILANGAN PRIMA (Score 60)
+Buat program yang meminta input bilangan bulat positif dari pengguna dan menentukan apakah bilangan tersebut adalah bilangan prima atau bukan. 
+> Bilangan prima adalah bilangan yang hanya dapat dibagi oleh 1 dan dirinya sendiri. <br/> 
+#### Output berupa bilangan 1 jika input adalah prima, sedangkan output berupa 0 jika input bukan prima. <br/>
 
 TestCase1 : 
 ```c
-$ make biasaspesial                                                                    
-$ ./biasaspesial                                                                        
-Masukkan bilangan bulat positif: 33
-SPESIAL
-$
-```
-
-TestCase2 : 
-```c
-$ make biasaspesial                                                                   
-$ ./biasaspesial                                                                        
-Masukkan bilangan bulat positif: 45
-BIASA
-$
-```
-
-## 2. DIGIT KANAN (Score 35)
-Buat sebuah fungsi yang meminta input tiga bilangan (misalnya a, b dan c). <br/>  
-Program akan menampilkan tulisan “SAMA” jika dua atau lebih dari input tersebut memiliki digit paling kanan yang sama. <bn/>
-Jika tidak maka program akan menampilkan tulisan “TIDAK SAMA”. <br/>
-
-TestCase1 : 
-```c
-$ make digitkanan                                                                    
-$ ./digitkanan                                                                        
-Masukkan tiga bilangan: 7 27 37
-SAMA
-$
-```
-
-TestCase2 : 
-```c
-$ make digitkanan                                                                    
-$ ./digitkanan                                                                        
-Masukkan tiga bilangan: 12 12 45
-SAMA
-$
-```
-
-TestCase3 : 
-```c
-$ make digitkanan                                                                    
-$ ./digitkanan                                                                        
-Masukkan tiga bilangan: 12 13 14
-TIDAK SAMA
-$
-```
-
-## 3. BILANGAN PRIMA (Score 35)
-Buat program yang meminta input bilangan bulat positif dari pengguna dan menentukan apakah bilangan tersebut adalah bilangan prima atau bukan. Bilangan prima adalah bilangan yang hanya dapat dibagi oleh 1 dan dirinya sendiri. <br/> 
-
-TestCase1 : 
-```c
-$ make bilanganprima
 $ ./bilanganprima
 Masukkan bilangan bulat positif: 17
-PRIMA
+1
 ```
 
 TestCase2 : 
 ```c
-$ make bilanganprima
 $ ./bilanganprima
 Masukkan bilangan bulat positif: 10
-BUKAN PRIMA
+0
 ```
 
 TestCase3 : 
 ```c
-$ make bilanganprima
 $ ./bilanganprima
 Masukkan bilangan bulat positif: 13
-PRIMA
+1
+```
+
+## 3. BONUS SOAL (Score 50)
+Pak Dendy, Pak Dida, dan Kak Livya sedang makan malam bersama. Makanan mereka memiliki porsi yang berbeda-beda (distinct). <br/>
+Makanan Pak Dida memiliki porsi diatas Pak Dendy dan dibawah Kak Livya. <br/> Dengan kata lain, makanan Pak Dendy memiliki porsi paling kecil, diikuti oleh Pak Dida kemudian <br/>
+Kak Livya. Tentukan berapa berat porsi makanan Pak Dida. <br/>
+#### Sample Input (lakukan 3 kali scanf)
+```c
+7
+10
+3
+```
+#### Sample Output 
+```c
+7
 ```
