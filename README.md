@@ -30,7 +30,7 @@ Makanan Kak Livya memiliki porsi yang paling maksimal dari mereka bertiga. Tentu
 
 ## 2. BILANGAN PRIMA (Score 60)
 Buat program yang meminta input bilangan bulat positif dari pengguna dan menentukan apakah bilangan tersebut adalah bilangan prima atau bukan. 
-> Bilangan prima adalah bilangan yang hanya dapat dibagi oleh 1 dan dirinya sendiri. <br/> 
+> Bilangan prima adalah bilangan yang tidak memiliki sisa (habis) ketika dibagi oleh angka 1 dan dirinya sendiri. <br/> 
 #### Output berupa bilangan 1 jika input adalah prima, sedangkan output berupa 0 jika input bukan prima. <br/>
 
 TestCase1 : 
