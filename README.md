@@ -45,8 +45,7 @@ Masukkan bilangan bulat positif: 13
 
 ## 3. BONUS SOAL (Score 50)
 Pak Dendy, Pak Dida, dan Kak Livya sedang makan malam bersama. Makanan mereka memiliki porsi yang berbeda-beda (distinct). <br/>
-Makanan Pak Dida memiliki porsi diatas Pak Dendy dan dibawah Kak Livya. <br/> Dengan kata lain, makanan Pak Dendy memiliki porsi paling kecil, diikuti oleh Pak Dida kemudian <br/>
-Kak Livya. Tentukan berapa berat porsi makanan Pak Dida. <br/>
+Makanan Pak Dida memiliki porsi diatas Pak Dendy dan dibawah Kak Livya. Dengan kata lain, makanan Pak Dendy memiliki porsi paling kecil, diikuti oleh Pak Dida kemudian Kak Livya. Tentukan berapa berat porsi makanan Pak Dida. <br/>
 #### Sample Input (lakukan 3 kali scanf)
 ```c
 7
