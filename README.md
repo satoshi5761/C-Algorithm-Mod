@@ -12,7 +12,7 @@ Makanan Kak Livya memiliki porsi yang paling maksimal dari mereka bertiga. Tentu
 8
 4 
 ```
-#### Sample Output 2
+#### Sample Output 1
 ```c
 8
 ```
@@ -68,7 +68,7 @@ Makanan Pak Dida memiliki porsi diatas Pak Dendy dan dibawah Kak Livya. Dengan k
 7
 ```
 
-#### Sample Input 2 (lakukan 3 kali scanf)
+#### Sample Input 2
 ```c
 10
 5
