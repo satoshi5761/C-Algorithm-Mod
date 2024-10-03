@@ -59,13 +59,13 @@ Pak Dendy, Pak Dida, dan Kak Livya sedang makan malam bersama. Makanan mereka me
 Makanan Pak Dida memiliki porsi diatas Pak Dendy dan dibawah Kak Livya. Dengan kata lain, makanan Pak Dendy memiliki porsi paling kecil, diikuti oleh Pak Dida kemudian Kak Livya. Tentukan berapa berat porsi makanan Pak Dida. <br/>
 #### Sample Input 1 (lakukan 3 kali scanf)
 ```c
-7
-10
+1
+2
 3
 ```
 #### Sample Output 1
 ```c
-7
+2
 ```
 
 #### Sample Input 2
