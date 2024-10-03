@@ -6,15 +6,26 @@ Pak Dendy, Pak Dida, dan Kak Livya sedang makan siang bersama. Makanan mereka me
 Makanan Kak Livya memiliki porsi yang paling maksimal dari mereka bertiga. Tentukan berapa berat porsi makanan Kak Livya. <br/>
 
 
-#### Sample Input (lakukan 3 kali scanf)
+#### Sample Input 1 (lakukan 3 kali scanf)
 ```c
 3
 8
 4 
 ```
-#### Sample Output 
+#### Sample Output 2
 ```c
 8
+```
+
+#### Sample Input 2
+```c
+10
+8
+50
+```
+#### Sample Output 2
+```c
+50
 ```
 
 ## 2. BILANGAN PRIMA (Score 60)
@@ -46,13 +57,24 @@ Masukkan bilangan bulat positif: 13
 ## 3. BONUS SOAL (Score 50)
 Pak Dendy, Pak Dida, dan Kak Livya sedang makan malam bersama. Makanan mereka memiliki porsi yang berbeda-beda (distinct). <br/>
 Makanan Pak Dida memiliki porsi diatas Pak Dendy dan dibawah Kak Livya. Dengan kata lain, makanan Pak Dendy memiliki porsi paling kecil, diikuti oleh Pak Dida kemudian Kak Livya. Tentukan berapa berat porsi makanan Pak Dida. <br/>
-#### Sample Input (lakukan 3 kali scanf)
+#### Sample Input 1 (lakukan 3 kali scanf)
 ```c
 7
 10
 3
 ```
-#### Sample Output 
+#### Sample Output 1
 ```c
 7
+```
+
+#### Sample Input 2 (lakukan 3 kali scanf)
+```c
+10
+5
+8
+```
+#### Sample Output 2
+```c
+8
 ```
