@@ -30,51 +30,55 @@ Makanan Kak Livya memiliki porsi yang paling maksimal dari mereka bertiga. Tentu
 
 ## 2. BILANGAN PRIMA (Score 60)
 Buat program yang meminta input bilangan bulat positif dari pengguna dan menentukan apakah bilangan tersebut adalah bilangan prima atau bukan. 
-> Bilangan prima adalah bilangan yang tidak memiliki sisa (habis) ketika dibagi oleh angka 1 dan dirinya sendiri. <br/> 
+> Bilangan prima adalah bilangan bulat yang hanya memiliki dua faktor pembagi, yaitu 1 dan dirinya sendiri, sehingga tidak dapat dibagi dengan bilangan lain tanpa menyisakan sisa <br/> 
 #### Output berupa bilangan 1 jika input adalah prima, sedangkan output berupa 0 jika input bukan prima. <br/>
 
-TestCase1 : 
+#### Sample Input : 
 ```c
-$ ./bilanganprima
-Masukkan bilangan bulat positif: 17
+17
+```
+#### Sample Output :
+```c
 1
 ```
 
-TestCase2 : 
+#### Sample Input : 
 ```c
-$ ./bilanganprima
-Masukkan bilangan bulat positif: 10
+10
+```
+#### Sample Output :
+```c
 0
 ```
 
-TestCase3 : 
+#### Sample Input : 
 ```c
-$ ./bilanganprima
-Masukkan bilangan bulat positif: 13
+13
+```
+#### Sample Output
+```c
 1
 ```
 
-## 3. BONUS SOAL (Score 50)
-Pak Dendy, Pak Dida, dan Kak Livya sedang makan malam bersama. Makanan mereka memiliki porsi yang berbeda-beda (distinct). <br/>
-Makanan Pak Dida memiliki porsi diatas Pak Dendy dan dibawah Kak Livya. Dengan kata lain, makanan Pak Dendy memiliki porsi paling kecil, diikuti oleh Pak Dida kemudian Kak Livya. Tentukan berapa berat porsi makanan Pak Dida. <br/>
-#### Sample Input 1 (lakukan 3 kali scanf)
+## 3. BONUS SOAL (Score 40)
+Hitung total dari series aritmatika 1 + 2 + 3 + ... + n </br>
+n berupa input user
+#### Sample Input 1
 ```c
-1
-2
 3
 ```
 #### Sample Output 1
 ```c
-2
+6
 ```
+##### 1 + 2 + 3 = 6
 
 #### Sample Input 2
 ```c
-10
-5
 8
 ```
 #### Sample Output 2
 ```c
-8
+36
 ```
+##### 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36
