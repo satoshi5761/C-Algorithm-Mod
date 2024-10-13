@@ -1,4 +1,4 @@
 #include <stdio.h>
 /*
-BONUS SOAL
+SOAL NOMOR 2 (12345)
 */
